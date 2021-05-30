@@ -1,3 +1,4 @@
+import { product } from "puppeteer";
 import config from "./config.data.json";
 
 export const adminData = config?.users?.admin;
@@ -76,6 +77,14 @@ export const simpleProductSale25 = productIdData.simple_sale_25;
 export const simpleProductSale12 = productIdData.simple_sale_12;
 export const simpleProductSale6 = productIdData.simple_sale_6;
 export const simpleProductSale0 = productIdData.simple_sale_0;
+export const virtual25 = productIdData.virtual_25;
+export const virtual12 = productIdData.virtual_12;
+export const virtual6 = productIdData.virtual_6;
+export const virtual0 = productIdData.virtual_0;
+export const downloadable25 = productIdData.downloadable_25;
+export const downloadable12 = productIdData.downloadable_12;
+export const downloadable6 = productIdData.downloadable_6;
+export const downloadable0 = productIdData.downloadable_0;
 export const variableProduct25Black = productIdData.variable_25_black;
 export const variableProduct25Blue = productIdData.variable_25_blue;
 export const variableProduct25Brown = productIdData.variable_25_brown;
